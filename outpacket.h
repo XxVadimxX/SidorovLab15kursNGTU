@@ -1,7 +1,7 @@
 #ifndef OUTPACKET_H
 #define OUTPACKET_H
 
-struct OutputPacketItem
+struct OutputPacketItem // Описание выходного отсчета
 {
     unsigned idx;
     unsigned level;
@@ -9,7 +9,7 @@ struct OutputPacketItem
 
 #define OUTPUTPACKET_MAXCOUNT 100
 
-struct OutputPacket
+struct OutputPacket // Описание пактеа с выходными данными
 {
     unsigned count;
     OutputPacketItem data[OUTPUTPACKET_MAXCOUNT];
