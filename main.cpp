@@ -4,6 +4,7 @@ int main()
 {
     ProcApp app;
     app.procConfig.coeff = 2;
+
     int ret = procAppRun(app);
     return ret;
 }
